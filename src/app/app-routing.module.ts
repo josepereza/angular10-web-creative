@@ -3,12 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
+import { PortafolioComponent } from './components/portafolio/portafolio.component';
 
 
 const routes: Routes = [
   {path:'about' ,component:AboutComponent},
   {path:'services', component:ServicesComponent},
   {path:'header' , component:HeaderComponent},
+  {path:'portafolio' , component:PortafolioComponent},
+
   {path:'', redirectTo: '/header', pathMatch: 'full' }
 ];
 
