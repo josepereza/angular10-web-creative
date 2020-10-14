@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener  } from '@angular/core';
-import {NavbarService} from './navbar.service'
+import {NavbarService} from '../../navbar.service'
 
 @Component({
   selector: 'app-navbar',
