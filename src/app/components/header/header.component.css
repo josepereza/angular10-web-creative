@@ -5,8 +5,11 @@
     width: 100%;
     height: 100vh;
     background-position: center center;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../../assets/img/despacho.jpg");
 
-    background-image:url("../../../assets/img/despacho.jpg");
+    
+    no_background-image:url("../../../assets/img/despacho.jpg");
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
