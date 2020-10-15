@@ -1,5 +1,9 @@
 # Creative
+* Podriamos agregar en el header.component.css un degradado para oscurecer o aclarar la imagen del header:
+```
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../../assets/img/despacho.jpg");
 
+```
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
 ![image](creative.png)
